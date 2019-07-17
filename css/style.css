@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: var(--max-width);
   margin: auto;
   padding: 0 2rem;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .category {
@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.4rem 0.6rem;
   border-radius: 15px;
   margin-bottom: 0.5rem;
+  height: 100%;
 }
 
 .category-sports { background: var(--sports-color) }
